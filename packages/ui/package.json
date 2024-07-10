@@ -9,7 +9,21 @@
   ],
   "exports": {
     "./styles.css": "./dist/index.css",
-    "./card": "./src/card.tsx"
+    "./accordion": "./src/ui/accordion.tsx",
+    "./badge": "./src/ui/badge.tsx",
+    "./button": "./src/ui/button.tsx",
+    "./card": "./src/ui/card.tsx",
+    "./checkbox": "./src/ui/checkbox.tsx",
+    "./collapsible": "./src/ui/collapsible.tsx",
+    "./combobox": "./src/ui/combobox.tsx",
+    "./command": "./src/ui/command.tsx",
+    "./dialog": "./src/ui/dialog.tsx",
+    "./form": "./src/ui/form.tsx",
+    "./label": "./src/ui/label.tsx",
+    "./navigation-menu": "./src/ui/navigation-menu.tsx",
+    "./popover": "./src/ui/popover.tsx",
+    "./radio-group": "./src/ui/radio-group.tsx",
+    "./separator": "./src/ui/separator.tsx"
   },
   "license": "MIT",
   "scripts": {
@@ -30,5 +44,26 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@radix-ui/react-accordion": "^1.2.0",
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-collapsible": "^1.1.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-navigation-menu": "^1.2.0",
+    "@radix-ui/react-popover": "^1.1.1",
+    "@radix-ui/react-radio-group": "^1.2.0",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.0.0",
+    "lucide-react": "^0.407.0",
+    "react-hook-form": "^7.52.1",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   }
 }
